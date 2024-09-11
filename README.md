@@ -15,7 +15,7 @@ Universal Sentence Encoder for multilingual embedding generation.
 For easy scalability and efficient model training.
 
 ## Dataset
-The Yelp Polarity Dataset
+[The Yelp Polarity Dataset](https://huggingface.co/datasets/fancyzhx/yelp_polarity)
 
 ## Model Architecture
 The model consists of a simple multilayer perceptron (MLP) with the following layers:
