@@ -1,5 +1,5 @@
 # Zero-Shot-Multilingual-Sentiment-Classification
-This project implements a zero-shot multilingual sentiment classification model using the Multilingual Universal Sentence Encoder (mUSE) to generate embeddings for text data in multiple languages. It uses a multilayer perceptron model built with PyTorch Lightning to classify sentiment as either positive or negative. The dataset used is a subset of the Yelp Polarity Dataset.
+This project implements a zero-shot multilingual sentiment classification model using the [Multilingual Universal Sentence Encoder (mUSE](https://www.kaggle.com/models/google/universal-sentence-encoder/tensorFlow1/multilingual/1?tfhub-redirect=true)) to generate embeddings for text data in multiple languages. It uses a multilayer perceptron model built with PyTorch Lightning to classify sentiment as either positive or negative. The dataset used is a subset of the Yelp Polarity Dataset.
 
 ## Features
 #### Multilingual Support: 
