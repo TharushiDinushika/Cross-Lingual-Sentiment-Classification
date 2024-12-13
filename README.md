@@ -1,11 +1,11 @@
 # Cross-Lingual Sentiment Classification
-This project implements a zero-shot multilingual sentiment classification model using the [Multilingual Universal Sentence Encoder (mUSE](https://www.kaggle.com/models/google/universal-sentence-encoder/tensorFlow1/multilingual/1?tfhub-redirect=true)) to generate embeddings for text data in multiple languages. It uses a multilayer perceptron model built with PyTorch Lightning to classify sentiment as either positive or negative. The dataset used is a subset of the [Yelp Polarity Dataset](https://huggingface.co/datasets/fancyzhx/yelp_polarity).
+This project implements a zero-shot cross-lingual sentiment classification model using the [Multilingual Universal Sentence Encoder (mUSE](https://www.kaggle.com/models/google/universal-sentence-encoder/tensorFlow1/multilingual/1?tfhub-redirect=true)) to generate embeddings for text data in multiple languages. It uses a multilayer perceptron model built with PyTorch Lightning to classify sentiment as either positive or negative. The dataset used is a subset of the [Yelp Polarity Dataset](https://huggingface.co/datasets/fancyzhx/yelp_polarity).
 
 ## Paper
 [Multilingual Universal Sentence Encoder for Semantic Retrieval](https://arxiv.org/pdf/1907.04307)
 
 ## Features
-#### Multilingual Support: 
+#### Cross-Lingual Support: 
 The model can predict sentiment in various languages like Arabic,
 Chinese (PRC), Chinese (Taiwan), Dutch, English, Germanic, German, French, Italian, Latin, Portuguese, Spanish, Japanese, Korean, Russian, Polish, Thai, and Turkish leveraging mUSE.
 #### Zero-Shot Learning: 
