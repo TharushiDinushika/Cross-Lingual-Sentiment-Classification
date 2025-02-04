@@ -39,3 +39,6 @@ Text is embedded using the Multilingual Universal Sentence Encoder.
 The model is trained using a cross-entropy loss and optimized with Adam optimizer.
 #### Evaluation: 
 Validation and test performance are tracked using accuracy.
+
+## UI Preview
+![Sentiment Analysis UI](assets/sentiment-analysis-ui.png)
